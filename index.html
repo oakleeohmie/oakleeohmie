@@ -1,70 +1,66 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
+    <title>Oaklee Ohmie's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <h1>
-            About Me
-        </h1>
-        <div class="row">
-            <div class="col-md-2">
-                <img src="http://placehold.it/150x150">
-            </div>
-            <div class="col-md-6">
-                <p>
-                    È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal
-                    contenuto
-                    testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale
-                    distribuzione
-                    delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio
-                    “testo
-                    qui”),
-                    apparendo come un normale blocco di testo leggibile. Molti software di impaginazione e di web design
-                    utilizzano
-                    Lorem Ipsum come testo modello. Molte versioni del testo sono state prodotte negli anni, a volte
-                    casualmente, a
-                    volte di proposito (ad esempio inserendo passaggi ironici).
-                </p>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
+    <header>
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">About<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                 </div>
             </div>
+        </nav>
+    </header>
+    <section class="secmain">
+
+        <div class="info">
+            <h2 class="title">About Me</h2>
+
+            <div class="container">
+                <p> <img id="main" src="./assets/images/portfolio-portrait.jpg" alt="Oaklee Ohmie">
+                    I'm Oaklee. I'm 20 years old. I work as a region coordinator at a property preservation company.
+                    My hobbies include shopping, listening to music and painting. I also enjoy reading and drinking
+                    coffee.
+                    I have an addiction to candles - I seriously own 32 from Bath and Body works. I have two dogs,
+                    the
+                    first
+                    is almost 5 years old and the second one is just a little under two years old. My favorite color
+                    is
+                    pink.
+                    <br>
+                    È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene
+                    distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che
+                    offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi
+                    frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile. Molti
+                    software di impaginazione e di web design utilizzano Lorem Ipsum come testo modello. Molte versioni
+                    del testo sono state prodotte negli anni, a volte casualmente, a volte di proposito (ad esempio
+                    inserendo passaggi ironici).
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
+    <footer class="footer">
+        <p class="copyright"> ©copyright</p>
+    </footer>
 </body>
+
 
 </html>
