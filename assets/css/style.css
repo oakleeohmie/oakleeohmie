@@ -2,9 +2,13 @@
     width: 270px !important; 
     height: 200px !important;
 }
-#card2 {
+.card2 {
     float: left !important;
 }
-#card3 {
+.card3 {
     float: left !important;
+}
+.title {
+color: goldenrod !important;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
