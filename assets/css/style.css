@@ -5,7 +5,8 @@ body {
 .title {
 color: #E3E5E6;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-padding-top: 90px;
+padding-top: 60px;
+padding-bottom: 40px;
 }
 #summary {
     font-size: 25px;
@@ -46,9 +47,9 @@ padding-top: 90px;
   }
   .main {
     background-color: #E3E5E6;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: auto;
+    height: 400px;
+    padding-top: 30px;
   }
   .button{
       size: 30px;
@@ -56,9 +57,13 @@ padding-top: 90px;
   }
   .social {
     background-color: #E3E5E6;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+    height: 100%;
+    display: flex;
+    padding: auto 7rem;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
   footer {
     height: 120px;
     background-color: #E3E5E6;
@@ -66,7 +71,7 @@ padding-top: 90px;
     width: auto;
   }
   header {
-    height: 300px;
+    height: 200px;
   }
   .card{
     display: flex;
@@ -81,5 +86,9 @@ padding-top: 90px;
   justify-content:center;
   height: 700px;
 }
-
-  
+.secmain {
+    background-color: #E3E5E6;
+    width: auto;
+    height: 400px;
+    padding-top: 30px;
+}

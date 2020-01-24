@@ -11,79 +11,94 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<div class=".container-fluid">
 
-    <body>
+<body>
+    <div class=".container-fluid">
         <header>
-            <nav class=" navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class=" navbar navbar-expand-lg">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">Home<span
+                        <a class="nav-item nav-link active" href="index.html" style="color: #E3E5E6;">Home<span
                                 class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="contact.html">Contact Me!</a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html" style="color: #E3E5E6;">Contact Me!</a>
+                        <a class="nav-item nav-link" href="portfolio.html" style="color: #E3E5E6;">Portfolio</a>
                     </div>
                 </div>
             </nav>
+            <h2 class="title" style="text-align: center;">
+                Portfolio
+            </h2>
         </header>
-        <section class="secmain">
-            <div class="info">
-                <h2 class="title" style="text-align: center;">
-                    Portfolio
-                </h2>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Quiz using Javascript</h5>
-                        <p class="card-text">When you open the quiz up, there's a start quiz button and a timer set to
-                            zero. After you click the start quiz button, the timer starts. The first question pops up.
-                            After you read the question, you click on an answer. Based on your choice, if it is wrong,
-                            the timer will have 15 seconds deducted from it. If it's right, the timer will be left
-                            alone. The next question will automatically pop up after the previous one is answered. After
-                            all questions have been answered, the quiz will show you your score and the timer will end.
-                        </p>
-                        <a href="https://oakleeohmie.github.io/code-quiz/" class="btn btn-info">Demo Code Quiz
-                            Here!</a>
-                        <a href="https://github.com/oakleeohmie/code-quiz" class="btn btn-info">See the code</a>
+        <div class=" info">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card-3">
+                        <img src="./assets/images/code-quiz.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz using Javascript</h5>
+                            <p class="card-text">When you open the quiz up, there's a start quiz button and a timer set
+                                to
+                                zero. After you click the start quiz button, the timer starts. The first question pops
+                                up.
+                                After you read the question, you click on an answer. Based on your choice, if it is
+                                wrong,
+                                the timer will have 15 seconds deducted from it. If it's right, the timer will be left
+                                alone. The next question will automatically pop up after the previous one is answered.
+                                After
+                                all questions have been answered, the quiz will show you your score and the timer will
+                                end.
+                            </p>
+                            <a href="https://oakleeohmie.github.io/code-quiz/" class="btn btn-info">Demo Code Quiz
+                                Here!</a>
+                            <a href="https://github.com/oakleeohmie/code-quiz" class="btn btn-info">See the code</a>
+                        </div>
                     </div>
-                    <img src="./assets/images/code-quiz.png" class="card-img-top one" alt="...">
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">BookFinder app using Javascript and API's</h5>
-                        <p class="card-text">ust type in an ISBN, author or title and it will pull up the most popular
-                            books. You can then see the title, author and ISBN of each of these books. If it has a
-                            summary, the summary will also be shown so that you can make a decision about whether or not
-                            the book sounds like an interesting read.</p>
-                        <a href="https://oakleeohmie.github.io/project-1/" class="btn btn-info">Demo BookFinder
-                            Here!</a>
-                        <a href="https://github.com/oakleeohmie/project-1/" class="btn btn-info">See the code</a>
-                    </div>
-                    <img src="./assets/images/bookfinder.png" class="card-img-top two" alt="...">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4">
+                        <div class="card-3">
+                            <img src="./assets/images/bookfinder.png" class="card-img-top two" alt="...">
+                            <h5 class="card-title">BookFinder app using Javascript and API's</h5>
+                            <p class="card-text">ust type in an ISBN, author or title and it will pull up the most
+                                popular
+                                books. You can then see the title, author and ISBN of each of these books. If it has a
+                                summary, the summary will also be shown so that you can make a decision about whether or
+                                not
+                                the book sounds like an interesting read.</p>
+                            <a href="https://oakleeohmie.github.io/project-1/" class="btn btn-info">Demo BookFinder
+                                Here!</a>
+                            <a href="https://github.com/oakleeohmie/project-1/" class="btn btn-info">See the code</a>
+                        </div>
+                    </div> 
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Day Planner using Javascript</h5>
-                        <p class="card-text">The planner is used to keep track of events that you have planned out for
-                            the day. When you open your planner, the time blocks will be color coded based off the
-                            current hour. If the hour has passed, the time block will be grey. The current hour will be
-                            red and the future hours will be green. The code has saved the events to localStorage making
-                            it possible for the planner to hold the events in the text area even after the page has been
-                            refreshed.</p>
-                        <a href="https://oakleeohmie.github.io/day-planner/" class="btn btn-info">Demo Day Planner
-                            Here!</a>
-                        <a href="https://github.com/oakleeohmie/day-planner/" class="btn btn-info">See the code</a>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4">
+                        <div class="card-3">
+                            <img src="./assets/images/work-schedule.png" class="card-img-top" alt="...">
+                            <h5 class="card-title">Day Planner using Javascript</h5>
+                            <p class="card-text">The planner is used to keep track of events that you have planned out
+                                for
+                                the day. When you open your planner, the time blocks will be color coded based off the
+                                current hour. If the hour has passed, the time block will be grey. The current hour will
+                                be
+                                red and the future hours will be green. The code has saved the events to localStorage
+                                making
+                                it possible for the planner to hold the events in the text area even after the page has
+                                been
+                                refreshed.</p>
+                            <a href="https://oakleeohmie.github.io/day-planner/" class="btn btn-info">Demo Day Planner
+                                Here!</a>
+                            <a href="https://github.com/oakleeohmie/day-planner/" class="btn btn-info">See the code</a>
+                        </div>
                     </div>
-                    <img src="./assets/images/work-schedule.png" class="card-img-top" alt="...">
                 </div>
 
             </div>
-        </section>
-
-    </body>
-</div>
+        </div>
+</body>
 
 </html>
