@@ -3,12 +3,14 @@ body {
     
 }
 .title {
-color: #23A4E9;
+color: #E3E5E6;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding-top: 90px;
 }
 #summary {
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 500px;
 }
 .active {
     font-size: 15px;
@@ -23,7 +25,6 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     clear: both;
   }
   .column{
-    
       margin-left: 40px;
       margin-right: 40px;
   }
@@ -33,8 +34,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .info {
       background-color: #E3E5E6;
-      margin-left: 50px;
-      margin-right: 50px;
+     width: auto;
   }
   .card-body {
     background-color: #E3E5E6;
@@ -59,3 +59,31 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 50px;
     margin-right: 50px;
   }
+  footer {
+    height: 120px;
+    background-color: #E3E5E6;
+    display: flex;
+    width: auto;
+  }
+  header {
+    height: 300px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: auto 25px;
+    border: none;
+    height: 70%;
+}
+.card-container{
+  display: flex;
+  justify-content:center;
+  background-image: url('../images/adventure-atmosphere-conifer-conifers-418831.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+  
