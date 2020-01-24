@@ -1,14 +1,56 @@
-#main { 
-    width: 270px !important; 
-    height: 200px !important;
-}
-.card2 {
-    float: left !important;
-}
-.card3 {
-    float: left !important;
+body {
+    background-image: url("../images/background_real_estate_2.jpg");
+    
 }
 .title {
-color: goldenrod !important;
+color: #23A4E9;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+#summary {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.active {
+    font-size: 15px;
+}
+.column {
+    width: 33.3%;
+    float: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column{
+    
+      margin-left: 60px;
+      margin-right: 45px;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .info {
+      background-color: #E3E5E6;
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  .card-body {
+    background-color: #E3E5E6;
+  }
+  .form {
+    background-color: #E3E5E6;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .main {
+    background-color: #E3E5E6;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .button{
+      size: 30px;
+      align-content: center;
+  }
