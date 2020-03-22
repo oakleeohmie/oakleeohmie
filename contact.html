@@ -3,67 +3,68 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Me!</title>
+    <title>Oaklee Ohmie's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class=" navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html" style="color: #E3E5E6;"">Home<span class="
-                        sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="contact.html" style="color: #E3E5E6;">Contact Me!</a>
-                    <a class="nav-item nav-link" href="portfolio.html" style="color: #E3E5E6;">Portfolio</a>
+    <div class=".container-fluid">
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="home.html">Home</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                </a>
+            </div>
+            <div class="row landing">
+
+                <div class="col-md-6  welcome">
+                    <h2 class="title">Contact Me</h2>
                 </div>
             </div>
-        </nav>
-        <h2 class="title" style="text-align: center;">Need to Reach Me?</h2>
-    </header>
-    <div class="main">
-        <form class="form">
-            <div class="form-group">
-                <label for="inputName" style="font-size: 30px;">Name</label>
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Your name here">
+        </header>
+        <br>
+        <div class="main">
+            <form class="form">
+                <div class="form-group">
+                    <label for="inputName" style="font-size: 30px;">Name</label>
+                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Your name here">
 
-            </div>
-            <div class="form-group">
-                <label for="inputEmail" style="font-size: 30px;">Email</label>
-                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
-            </div>
-            <div class="form-group">
-                <label class="form-check-label" for="inputMessage" style="font-size: 30px;">Leave me a
-                    message</label>
-                <input type="message" class="form-control" id="exampleCheck1">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" style="font-size: 30px;">Email</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label class="form-check-label" for="inputMessage" style="font-size: 30px;">Leave me a
+                        message</label>
+                    <input type="message" class="form-control" id="exampleCheck1">
 
-            </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+                <div class="submit">
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
 
-        </form>
-    </div>
-
-    <h2 class="title" style="text-align: center;">Connect with Me</h2>
-    <div class="social">
-        <div class="linked">
-            <a href="https://www.linkedin.com/in/oakleeohmie/" class="fa fa-linkedin fa-5x"></a>
+            </form>
         </div>
-        <div class="github">
-            <a href="https://www.github.com/oakleeohmie" class="fa fa-github fa-5x"></a>
-        </div>
-    </div>
-
+        <footer class="footer">
+            <div class="row foot-icons">
+                <div class="linked">
+                    <a href="https://www.linkedin.com/in/oakleeohmie/" class="fa fa-linkedin fa-5x"></a>
+                </div>
+                <div class="github">
+                    <a href="https://www.github.com/oakleeohmie" class="fa fa-github fa-5x"></a>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>

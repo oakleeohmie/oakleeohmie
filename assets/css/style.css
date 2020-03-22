@@ -1,94 +1,167 @@
-body {
-    background-image: url("../images/background_real_estate_2.jpg");
-    
-}
 .title {
-color: #E3E5E6;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-padding-top: 60px;
-padding-bottom: 40px;
+  font-family: 'Contrail One', cursive;
+  font-size: 60px;
+}
+body {
+  background-image: url("../images/newspaper.jpg");
+  
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.topnav {
+  background-color: rgba(231, 160, 112, 0.925);
+  overflow: hidden;
+}
+
+.topnav a {
+  font-family: 'Contrail One', cursive;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(248, 244, 244);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgba(230, 148, 94, 0.781);
+  color: white;
+}
+
+
+.card-body {
+  border-radius: 15px;
+}
+footer {
+  background-color: rgba(231, 160, 112, 0.925);
+}
+h1, h2, h3, h4{
+  font-family: 'Contrail One', cursive;
+  font-weight: 500;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 34px;
+}
+h3{
+  font-size: 28px;
+}
+p{
+  font-family: 'Fauna One', serif;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: rgb(241, 236, 236);
+  font-family: 'Fauna One', serif;
+}
+a:hover{
+  color: whitesmoke;
+}
+.navbar{
+  height: 90px;
+  padding:  0 10%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  color: white;
+}
+.landing{
+  background-image: url("../images/coffee-beans.jpg");
+  background-size: cover;
+  height: 500px;
+  padding:200px 7rem;
+}
+.welcome{
+  padding: 20px;
+  color: white;
+  line-height: 30px;
+}
+.title{
+  margin-bottom: 20px;
+}
+.snippet {
+  margin-bottom: 20px;
+  font-family: 'Fauna One', serif;
+}
+button{
+  font-family: 'Contrail One', cursive;
+}
+
+p{
+  line-height: 30px;  
+}
+.btn-dark {
+  background-color: rgba(231, 160, 112, 0.925) !important;
+  border: rgba(231, 160, 112, 0.925);
+  font-size: 17px;
+  
+}
+.ig {
+  height: 35px;
+  width: 35px;
+}
+.foot-icons{
+  height: 100%;
+  display: flex;
+  padding: auto 4rem;
+  justify-content: center;
+}
+.icons{
+  height: 20%;
+  width: auto;
+  margin: auto 10px;
+}
+.about {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #summary {
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 500px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+font-size: 32px;
+font-family: 'Contrail One', cursive;
+color: white;
+background-color: rgba(231, 160, 112, 0.925);
 }
-.active {
-    font-size: 15px;
+.row {
+  padding-top: 50px;
 }
-.column {
-    width: 33.3%;
-    float: left;
+.form-group {
+  font-family: 'Contrail One', cursive;
+  color: white;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column{
-      margin-left: 40px;
-      margin-right: 40px;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .info {
-      background-color: #E3E5E6;
-     width: auto;
-  }
-  .card-body {
-    background-color: #E3E5E6;
-  }
-  .form {
-    background-color: #E3E5E6;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .main {
-    background-color: #E3E5E6;
-    width: auto;
-    height: 400px;
-    padding-top: 30px;
-  }
-  .button{
-      size: 30px;
-      align-content: center;
-  }
-  .social {
-    background-color: #E3E5E6;
-    height: 100%;
-    display: flex;
-    padding: auto 7rem;
-    justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.submit {
+  text-align: center;
 }
-  footer {
-    height: 120px;
-    background-color: #E3E5E6;
-    display: flex;
-    width: auto;
-  }
-  header {
-    height: 200px;
-  }
-  .card{
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-    margin: auto 25px;
-    border: none;
-    height: 70%;
+.social {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  background-color: rgba(231, 160, 112, 0.925);
 }
-.card-container{
-  display: flex;
-  justify-content:center;
-  height: 700px;
-}
-.secmain {
-    background-color: #E3E5E6;
-    width: auto;
-    height: 400px;
-    padding-top: 30px;
+.main {
+  background-color: rgba(231, 160, 112, 0.925);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
